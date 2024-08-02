@@ -1,0 +1,66 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(41, 41, 71);
+    font-size: 1.3rem;
+    text-align: justify;
+    background-color: rgba(173, 173, 250, 0.226);
+}
+
+.container {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(254, 254, 254);
+    padding: 0 20px 20px 20px;
+    display: block;
+    align-items: center;
+}
+
+/*
+***********  INICIO ***********
+******* IMÁGENES (EBOOK) ********
+*/
+
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 0%;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 10px auto 60px;
+    box-shadow: 10px 10px 10px hwb(228 23% 50% / 0.60);
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+}
+
+figcaption {
+    background-color: hwb(240 5% 81% / 0.812);
+    border: thin #c0c0c0 solid;
+    color: aliceblue;
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+    padding: 3px;    
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    box-shadow: 10px 10px 10px hwb(228 23% 50% / 0.60);
+}
+
+/*
+*********** TERMINAN ***********
+******* IMÁGENES (EBOOK) ********
+*/
+
+
+/*'Montserrat', sans-serif;*/
+/*'Courier New', monospace; */
+/*'Roboto', sans-serif*/
+
